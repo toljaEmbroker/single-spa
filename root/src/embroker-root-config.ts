@@ -18,6 +18,8 @@ registerApplication({
   activeWhen: ["/admin"],
 });
 
-start({
-  urlRerouteOnly: true,
+System.import("@embroker/ui-toolkit").then(() => {
+  start({
+    urlRerouteOnly: true,
+  });
 });

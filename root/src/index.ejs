@@ -49,7 +49,8 @@
         "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.development.js",
         "@embroker/root-config": "http://localhost:9000/embroker-root-config.js",
         "@embroker/app": "http://localhost:8081/embroker-app.js",
-        "@embroker/admin": "http://localhost:8082/embroker-admin.js"
+        "@embroker/admin": "http://localhost:8082/embroker-admin.js",
+        "@embroker/ui-toolkit": "http://localhost:8083/embroker-ui-toolkit.js"
       }
     }
   </script>
@@ -77,6 +78,7 @@
   <main></main>
   <script>
     System.import('@embroker/root-config');
+    System.import('@embroker/ui-toolkit');
   </script>
   <import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full>
 </body>
